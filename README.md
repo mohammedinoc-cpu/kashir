@@ -1,81 +1,143 @@
 # 🇮🇶 Kashir — Business Management Platform
 
-> A production business management platform built for the Iraqi market.
+> A production-ready business management platform built for small and medium-sized businesses in the Iraqi market.
 
-**Kashir** is a cloud-based business management platform designed to help small and medium-sized businesses manage sales, inventory, customers, suppliers, debts, payments, and daily business operations.
+**Kashir** is a cloud-based business management platform designed to simplify daily business operations, including sales, inventory, customers, suppliers, debts, payments, reporting, and customer communication.
 
-The platform was designed and developed as a **real-world production product**, with both web and Android experiences.
+The platform was designed and developed as a **real-world commercial product**, providing Web, PWA, and Android experiences through an integrated backend and API architecture.
 
 ---
 
 ## 🚀 Overview
 
-Kashir brings essential business operations together in one platform, with a focus on simplicity, accessibility, and the needs of businesses in the Iraqi market.
+Kashir brings essential business operations together in a single platform, with a focus on simplicity, accessibility, and practical business requirements.
 
 ### Key Features
 
 * 🧾 Point of Sale (POS)
-* 📦 Inventory management
+* 📦 Product and inventory management
 * 👥 Customer and supplier management
 * 💰 Debt and payment management
 * 📊 Sales and business reports
-* 👤 User accounts and access management
+* 👤 User accounts and access control
 * 🔔 Notifications
 * 💬 WhatsApp API integration
+* 🤖 AI-powered features
 * 📱 Android application
 * 🌐 Web application
 * 📲 Progressive Web App (PWA)
 * 🔥 Firebase integration
 * 🔌 REST API integration
 * 🌍 Arabic user interface
+* 🛒 Online store functionality
+* 🤝 Referral system
 
 ---
 
-## 🏗️ Platform Architecture
+## 📸 Application Showcase
 
-Kashir consists of multiple connected components:
+### Dashboard
+
+![Kashir Dashboard](screenshots/dashboard.png)
+
+### Point of Sale
+
+![Kashir POS](screenshots/pos.png)
+
+### Products & Inventory
+
+![Kashir Products](screenshots/products.png)
+
+### Customers
+
+![Kashir Customers](screenshots/customers.png)
+
+### Debt Management
+
+![Kashir Debts](screenshots/debts.png)
+
+### Business Reports
+
+![Kashir Reports](screenshots/reports.png)
+
+### Online Store
+
+![Kashir Store](screenshots/store.png)
+
+### Referral System
+
+![Kashir Referrals](screenshots/referrals.png)
+
+### AI Features
+
+![Kashir AI](screenshots/ai.png)
+
+### User Interface
+
+![Kashir Interface](screenshots/interface.png)
+
+### Navigation
+
+![Kashir Menu](screenshots/menu.png)
+
+---
+
+## 🏗️ System Architecture
+
+Kashir uses a multi-platform architecture connecting web and mobile clients with a PHP backend, REST APIs, MySQL, Firebase, and external communication services.
+
+![Kashir System Architecture](screenshots/architecture.jpg)
+
+### Architecture Overview
 
 ```text
-                    ┌─────────────────────┐
-                    │      Kashir Cloud   │
-                    │      PHP Backend    │
-                    │      MySQL Database  │
-                    └──────────┬──────────┘
-                               │
-                     ┌─────────┴─────────┐
-                     │       API         │
-                     └─────────┬─────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              │                │                │
-              ▼                ▼                ▼
-        Web Application       PWA       Android Application
-              │                                 │
-              │                                 │
-              └──────────────┬──────────────────┘
-                             │
-                             ▼
-                    Firebase Services
-
-                             │
-                             ▼
-                      WhatsApp API
+                         ┌──────────────────────────┐
+                         │      KASHIR PLATFORM     │
+                         │                          │
+                         │      PHP Backend         │
+                         │      MySQL Database      │
+                         └────────────┬─────────────┘
+                                      │
+                              ┌───────▼───────┐
+                              │   REST APIs   │
+                              └───────┬───────┘
+                                      │
+                 ┌────────────────────┼────────────────────┐
+                 │                    │                    │
+                 ▼                    ▼                    ▼
+        ┌────────────────┐   ┌────────────────┐   ┌────────────────┐
+        │ Web Application│   │      PWA       │   │ Android App   │
+        │ HTML/CSS/JS    │   │ Installable    │   │ Kotlin/WebView│
+        │ Bootstrap      │   │ Web Platform   │   │               │
+        └────────────────┘   └────────────────┘   └────────────────┘
+                 │                    │                    │
+                 └────────────────────┼────────────────────┘
+                                      │
+                    ┌─────────────────┴─────────────────┐
+                    │                                   │
+                    ▼                                   ▼
+             ┌─────────────┐                    ┌──────────────┐
+             │  Firebase   │                    │ WhatsApp API │
+             │  Services   │                    │ Integration  │
+             └─────────────┘                    └──────────────┘
 ```
 
 ---
 
-## 🛠️ Technologies
+## 🛠️ Technology Stack
 
 ### Backend
 
 * PHP
 * MySQL
 * REST APIs
+* Authentication and access control
+* Server-side business logic
 
 ### Web
 
-* HTML
-* CSS
+* HTML5
+* CSS3
 * JavaScript
 * Bootstrap
 
@@ -85,52 +147,82 @@ Kashir consists of multiple connected components:
 * Kotlin
 * WebView
 
+### Progressive Web App
+
+* PWA technologies
+* Installable web application
+* Web-based mobile experience
+* Offline-oriented capabilities
+
 ### Cloud & Services
 
 * Firebase
 * WhatsApp API
-
-### Progressive Web App
-
-* PWA technologies
-* Web-based application installation
-* Offline-oriented capabilities
+* REST-based integrations
 
 ---
 
 ## 📱 Multi-Platform Experience
 
-Kashir provides access through multiple platforms:
+Kashir is designed to provide a consistent business experience across multiple platforms.
 
-### Web
+### 🌐 Web Application
 
-A browser-based business management application accessible from desktop and mobile devices.
+A browser-based business management platform accessible from desktop and mobile devices.
 
-### Android
+### 📲 Progressive Web App
 
-A dedicated Android application developed using **Kotlin**, with integration between the mobile application and the Kashir platform.
+Kashir supports PWA capabilities, allowing users to install and access the platform as a web application.
 
-### PWA
+### 🤖 Android Application
 
-Kashir also supports **Progressive Web App** capabilities, allowing users to access the application as an installable web application.
+A dedicated Android application developed using **Kotlin**, integrating with the Kashir platform.
 
-### WebView
+### 🔗 WebView Integration
 
-The Android application integrates web-based functionality through **WebView**, allowing the mobile application to work with the existing web platform.
+The Android application uses **WebView** to integrate web-based functionality with the native Android environment.
 
 ---
 
 ## 💬 WhatsApp Integration
 
-Kashir integrates with the **WhatsApp API** to support business communication and automated notifications.
+Kashir integrates with the **WhatsApp API** to connect business operations with customer communication.
 
-This allows the platform to connect business operations with customer communication workflows.
+The integration is designed to support workflows such as customer notifications and payment-related communication.
 
 ---
 
-## 🔥 Firebase
+## 🔥 Firebase Integration
 
 Firebase is integrated into the Android ecosystem to support application-related services and communication features.
+
+---
+
+## 🤖 AI Features
+
+Kashir includes AI-related functionality designed to enhance the business management experience.
+
+The AI layer is integrated into the existing application architecture rather than operating as an isolated demonstration.
+
+![Kashir AI](screenshots/ai.png)
+
+---
+
+## 🛒 Online Store
+
+Kashir includes online store functionality that extends the business platform beyond internal management.
+
+This allows businesses to present products through a digital storefront while maintaining their business data within the same ecosystem.
+
+![Kashir Store](screenshots/store.png)
+
+---
+
+## 🤝 Referral System
+
+Kashir includes a referral mechanism designed to support user acquisition and platform growth.
+
+![Kashir Referral System](screenshots/referrals.png)
 
 ---
 
@@ -145,43 +237,46 @@ My responsibilities included:
 * Database design
 * Web application development
 * Android application development
-* API development and integration
+* REST API development
 * Authentication and access control
-* Business logic
+* Business logic implementation
 * WhatsApp API integration
 * Firebase integration
 * PWA implementation
 * WebView integration
-* Deployment and ongoing maintenance
-
----
-
-## 🎯 Real-World Engineering
-
-Kashir was not developed solely as a demonstration or academic project.
-
-It was built to address practical business requirements and deployed as a real product for the Iraqi market.
-
-This required dealing with real-world considerations such as:
-
-* Business workflows
-* Data management
-* User permissions
-* Mobile and web compatibility
-* API communication
-* Notifications
-* Customer requirements
+* AI feature integration
 * Production deployment
 * Maintenance and continuous improvement
 
 ---
 
+## 🎯 Engineering Focus
+
+Kashir was developed as a **real-world production product**, not only as an academic or demonstration project.
+
+The development process involved practical engineering requirements including:
+
+* Designing business workflows
+* Managing business data
+* Implementing user permissions
+* Connecting web and mobile clients
+* Developing REST APIs
+* Integrating third-party services
+* Supporting multiple application environments
+* Handling production deployment
+* Maintaining and improving an active product
+
+---
+
 ## 🌍 Target Market
 
-**Primary Market:** Iraq 🇮🇶
-**Region:** MENA
-**Interface Language:** Arabic
-**Platforms:** Web + Android + PWA
+| Category           | Details                  |
+| ------------------ | ------------------------ |
+| Primary Market     | Iraq 🇮🇶                |
+| Region             | MENA                     |
+| Interface Language | Arabic                   |
+| Platforms          | Web + Android + PWA      |
+| Product Type       | Business Management SaaS |
 
 ---
 
@@ -193,19 +288,13 @@ This required dealing with real-world considerations such as:
 
 ---
 
-## 📸 Screenshots
-
-Screenshots and additional technical documentation will be added to this repository to demonstrate the platform's user interface and functionality.
-
----
-
 ## 🔒 Source Code
 
 Kashir is a commercial production product.
 
-The complete proprietary source code is therefore not publicly available in this repository.
+The complete proprietary source code is therefore **not publicly available** in this repository.
 
-This repository serves as a **technical portfolio and case study** documenting the product, architecture, technologies, and engineering work involved in its development.
+This repository serves as a **technical portfolio and case study**, documenting the product architecture, technologies, engineering decisions, features, and development work.
 
 ---
 
@@ -214,13 +303,23 @@ This repository serves as a **technical portfolio and case study** documenting t
 **Status:** Production
 **Development:** Active
 **Platform:** Web + Android + PWA
+**Market:** Iraq
 
 ---
 
 ## 👨‍💻 Developer
 
-**Mohammed Al-Mousawi**
+### Mohammed Al-Mousawi
 
-Computer Engineer | Full-Stack Developer | SaaS Builder
+**Computer Engineer | Full-Stack Developer | SaaS Builder**
 
-GitHub: https://github.com/mohammedinoc-cpu
+GitHub:
+https://github.com/mohammedinoc-cpu
+
+---
+
+## ⭐ About This Repository
+
+This repository demonstrates the architecture and engineering work behind Kashir while keeping proprietary production source code private.
+
+It is intended to provide technical context for recruiters, employers, collaborators, and potential clients interested in the project.

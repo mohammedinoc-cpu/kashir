@@ -1,10 +1,14 @@
 # 🇮🇶 Kashir — Business Management Platform
 
-> A production-ready business management platform built for small and medium-sized businesses in the Iraqi market.
+> A production SaaS platform built for small and medium-sized businesses in the Iraqi market.
 
-**Kashir** is a cloud-based business management platform designed to simplify daily business operations, including sales, inventory, customers, suppliers, debts, payments, reporting, and customer communication.
+**Kashir** is a cloud-based business management platform designed to simplify daily business operations, including sales, inventory, customers, suppliers, debts, payments, reporting, notifications, and customer communication.
 
-The platform was designed and developed as a **real-world commercial product**, providing Web, PWA, and Android experiences through an integrated backend and API architecture.
+It was designed, developed, deployed, and maintained as a **real-world commercial product**, providing Web, PWA, and Android experiences through an integrated backend and API architecture.
+
+[![Kashir Website](https://img.shields.io/badge/Website-Kashir--IQ-blue)](https://www.kashir-iq.com/)
+[![Platform](https://img.shields.io/badge/Platform-Web%20%7C%20PWA%20%7C%20Android-green)](https://www.kashir-iq.com/)
+[![Status](https://img.shields.io/badge/Status-Production-success)](https://www.kashir-iq.com/)
 
 ---
 
@@ -20,7 +24,7 @@ Kashir brings essential business operations together in a single platform, with 
 * 💰 Debt and payment management
 * 📊 Sales and business reports
 * 👤 User accounts and access control
-* 🔔 Notifications
+* 🔔 Notifications and automated reminders
 * 💬 WhatsApp API integration
 * 🤖 AI-powered features
 * 📱 Android application
@@ -35,6 +39,8 @@ Kashir brings essential business operations together in a single platform, with 
 ---
 
 ## 📸 Application Showcase
+
+Kashir provides a multi-platform business management experience covering sales, inventory, customers, debts, reporting, online commerce, and AI-powered functionality.
 
 ### Dashboard
 
@@ -124,6 +130,23 @@ Kashir uses a multi-platform architecture connecting web and mobile clients with
 
 ---
 
+## 🔧 Key Engineering Highlights
+
+Kashir involved practical software engineering across multiple layers of a production system.
+
+* **SaaS Architecture** — Designed a cloud-based platform for business operations.
+* **Backend Engineering** — Developed server-side business logic using PHP and MySQL.
+* **REST API Design** — Connected web and mobile clients through API-based communication.
+* **Database Design** — Structured business data for customers, products, sales, debts, payments, and reports.
+* **Authentication & Authorization** — Implemented user accounts, access control, and business-level permissions.
+* **Multi-Platform Integration** — Connected Web, PWA, and Android experiences within the same ecosystem.
+* **Third-Party Integrations** — Integrated Firebase and WhatsApp API services.
+* **Business Automation** — Implemented notifications and automated business workflows.
+* **Production Deployment** — Deployed and maintained the platform as a real-world product.
+* **Continuous Improvement** — Iterated on the platform based on practical business requirements and user needs.
+
+---
+
 ## 🛠️ Technology Stack
 
 ### Backend
@@ -131,8 +154,8 @@ Kashir uses a multi-platform architecture connecting web and mobile clients with
 * PHP
 * MySQL
 * REST APIs
-* Authentication and access control
-* Server-side business logic
+* Authentication & Authorization
+* Server-side Business Logic
 
 ### Web
 
@@ -149,12 +172,11 @@ Kashir uses a multi-platform architecture connecting web and mobile clients with
 
 ### Progressive Web App
 
-* PWA technologies
-* Installable web application
-* Web-based mobile experience
+* PWA
+* Installable Web Application
 * Offline-oriented capabilities
 
-### Cloud & Services
+### Cloud & Integrations
 
 * Firebase
 * WhatsApp API
@@ -200,9 +222,9 @@ Firebase is integrated into the Android ecosystem to support application-related
 
 ## 🤖 AI Features
 
-Kashir includes AI-related functionality designed to enhance the business management experience.
+Kashir includes AI-powered functionality designed to enhance the business management experience and explore intelligent interaction with business data.
 
-The AI layer is integrated into the existing application architecture rather than operating as an isolated demonstration.
+The AI capabilities are integrated into the broader Kashir platform rather than being presented as a standalone demo.
 
 ![Kashir AI](screenshots/ai.png)
 
@@ -228,22 +250,22 @@ Kashir includes a referral mechanism designed to support user acquisition and pl
 
 ## 👨‍💻 My Role
 
-I designed and developed Kashir across multiple areas of the system.
+I designed and developed Kashir across the major layers of the platform, from backend architecture and database design to web, mobile, APIs, integrations, and production deployment.
 
-My responsibilities included:
+### Responsibilities
 
-* Application architecture
-* Backend development
-* Database design
-* Web application development
-* Android application development
+* System and application architecture
+* Backend development with PHP
+* MySQL database design
 * REST API development
-* Authentication and access control
-* Business logic implementation
-* WhatsApp API integration
-* Firebase integration
-* PWA implementation
+* Web application development
+* Android development with Kotlin
 * WebView integration
+* Authentication and authorization
+* Business logic and workflows
+* PWA implementation
+* Firebase integration
+* WhatsApp API integration
 * AI feature integration
 * Production deployment
 * Maintenance and continuous improvement
@@ -270,13 +292,13 @@ The development process involved practical engineering requirements including:
 
 ## 🌍 Target Market
 
-| Category           | Details                  |
-| ------------------ | ------------------------ |
-| Primary Market     | Iraq 🇮🇶                |
-| Region             | MENA                     |
-| Interface Language | Arabic                   |
-| Platforms          | Web + Android + PWA      |
-| Product Type       | Business Management SaaS |
+| Category           | Details                    |
+| ------------------ | -------------------------- |
+| Primary Market     | Iraq 🇮🇶                  |
+| Region             | MENA                       |
+| Interface Language | Arabic                     |
+| Platforms          | Web + Android + PWA        |
+| Product Type       | SaaS / Business Management |
 
 ---
 
@@ -284,7 +306,9 @@ The development process involved practical engineering requirements including:
 
 🌐 **Website:** https://www.kashir-iq.com/
 
-📱 **Android:** Available on Google Play
+📱 **Android Application:** [Available on Google Play](https://play.google.com/store/apps/details?id=com.kashir.iq&pli=1)
+
+> The Android application provides a mobile experience connected to the Kashir platform and backend services.
 
 ---
 
@@ -300,10 +324,13 @@ This repository serves as a **technical portfolio and case study**, documenting 
 
 ## 📌 Project Status
 
-**Status:** Production
-**Development:** Active
-**Platform:** Web + Android + PWA
-**Market:** Iraq
+| Category     | Details                    |
+| ------------ | -------------------------- |
+| Status       | Production                 |
+| Development  | Active                     |
+| Platform     | Web + Android + PWA        |
+| Market       | Iraq / MENA                |
+| Product Type | SaaS / Business Management |
 
 ---
 
